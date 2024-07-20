@@ -8,7 +8,7 @@ const ShortenedUrl = ({ url, onCopy }) => {
 
   return (
     <div className="p-4 bg-white rounded-md shadow-md flex flex-col items-center space-y-2 md:flex-row md:space-y-0 md:space-x-4 transition duration-300 ease-in-out transform hover:scale-105">
-      <p className="text-lg text-gray-700">Shortened URL: {url}</p>
+      <p className="text-lg text-gray-700">Easy Shortened URL: {url}</p>
       <button
         className="p-2 bg-blue-500 text-white rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 ease-in-out transform hover:scale-105"
         onClick={handleCopy}
